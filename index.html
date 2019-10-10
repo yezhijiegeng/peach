@@ -9,5 +9,13 @@
 <h1>个人主页1</h1>
 <p>主页内容主页内容主页内容</p>
 
+<p id="demo">这是一个段落</p>
+<button type="button" onclick="displayDate()">显示日期</button>
+
+<script>
+function displayDate(){
+	document.getElementById("demo").innerHTML=Date();
+}
+</script>
 </body>
 </html>
